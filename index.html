@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>elatform (Education and Learning Platform)</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <!-- Core css -->
+    <link rel="stylesheet" id="bulma" href="assets/css/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/core.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- Plugins css -->
+    <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/slick-carousel/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/ggpopover/ggtooltip.css">
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="assets/css/icons.min.css">
+    <style>
+        .banner_content span {
+            background: #fab700;
+            border-radius: 2px;
+            line-height: 60px;
+            color: #222222;
+            padding: 4px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Pageloader -->
+<div class="pageloader"></div>
+<div class="infraloader is-active"></div>
+
+<!-- Hero (with absolute positionned pseudo element) and nav -->
+<div id="landing-hero" class="hero is-relative is-theme-secondary hero-waves">
+    <div class="navbar-wrapper navbar-fade navbar-light">
+        <div class="hero-head">
+            <!-- Nav -->
+            <div class="container">
+                <nav class="nav">
+                    <div class="container big">
+                        <div class="nav-left">
+                            <a class="nav-item" href="#">
+                                <img class="light-logo" src="assets/images/logos/bulkit-w.png" alt="">
+                            </a>
+                            <a href="#services" class="nav-item is-tab nav-inner is-not-mobile">
+                                Services
+                            </a>
+                            <a href="#goal" class="nav-item is-tab nav-inner is-not-mobile">
+                                Goal
+                            </a>
+                            <a href="#team" class="nav-item is-tab nav-inner is-not-mobile">
+                                Team
+                            </a>
+                            <a href="#about" class="nav-item is-tab nav-inner is-not-mobile">
+                                About Us
+                            </a>
+                            <a href="#contact" class="nav-item is-tab nav-inner is-not-mobile">
+                                Contact
+                            </a>
+                        </div>
+                        <!-- Responsive toggle -->
+                        <span class="nav-toggle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                        </span>
+                        <div class="nav-right nav-menu">
+                            <a href="#services" class="nav-item is-tab nav-inner is-menu-mobile">
+                                Services
+                            </a>
+                            <a href="#goal" class="nav-item is-tab nav-inner is-menu-mobile">
+                                Goal
+                            </a>
+                            <a href="#team" class="nav-item is-tab nav-inner is-menu-mobile">
+                                Team
+                            </a>
+                            <a href="#about" class="nav-item is-tab nav-inner is-menu-mobile">
+                                About Us
+                            </a>
+                            <a href="#contact" class="nav-item is-tab nav-inner is-menu-mobile">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- /Nav -->
+        </div>
+    </div>
+
+    <!-- Hero caption -->
+    <div id="main-hero" class="hero-body ">
+        <div class="container">
+            <div class="columns is-vcentered is-tablet-portrait">
+                <!-- Caption -->
+                <div class="column is-5 header-caption has-text-left">
+                    <h1 class="banner_content landing-title">
+                        Build Your <span>Dream</span>
+                    </h1>
+                    <!-- <h2 class="subtitle is-5 light-text">
+                        Discover a full featured Project management software that will boost your team's productivity.
+                    </h2> -->
+                    <p class="pt-10 pb-10">
+                        <a href="#services" class="button button-cta btn-align btn-outlined is-bold light-btn rounded z-index-2">
+                            Get Started
+                        </a>
+                    </p>
+                </div>
+                <!-- UI Mockup -->
+                <div class="column is-7 is-offset-1">
+                    <figure class="image is-3by2 rounded">
+                        <img src="./assets/images/team/group.png" alt="">
+                    </figure>
+                </div>
+                <!-- /UI Mockup -->
+            </div>
+        </div>
+    </div>
+    <!-- /Hero caption -->
+</div>
+<!-- /Hero and nav -->
+
+<!-- Services section -->
+<section id="services" class="section is-medium">
+    <div class="container">
+        <!-- Title -->
+        <div class="section-title-wrapper has-text-centered">
+            <div class="bg-number">1</div>
+            <h2 class="section-title-landing">
+                Our Vision
+            </h2>
+            <h4>Who are in extremely love with eco friendly system.</h4>
+        </div>
+        <!-- /Title -->
+
+        <div class="content-wrapper">
+            <div class="columns is-vcentered is-multiline has-text-centered">
+                <!-- Icon block -->
+                <div class="column is-4">
+                    <div class="wavy-icon-box">
+                        <div class="is-icon-reveal">
+                            <i class="im im-icon-Arrow-Around"></i>
+                        </div>
+                        <div class="box-title">Product and Solutions</div>
+                        <p class="box-content is-tablet-padded">One stop portal delivering Academics Solutions.</p>
+                        <a class="button button-cta secondary-btn g-item margin-10">For School</a>
+                        <a class="button button-cta secondary-btn g-item margin-10">For Student</a><br>
+                        <a class="button button-cta secondary-btn g-item margin-10">For Government</a>
+
+                    </div>
+                </div>
+                <!-- Icon block -->
+                <div class="column is-4">
+                    <div class="wavy-icon-box">
+                        <div class="is-icon-reveal">
+                            <i class="im im-icon-Timer-2"></i>
+                        </div>
+                        <div class="box-title">Story of Digital Learning</div>
+                        <p class="box-content is-tablet-padded">Promoting & Learning tech based learning with our devise range of online solutions.</p>
+                    </div>
+                </div>
+                <!-- Icon block -->
+                <div class="column is-4">
+                    <div class="wavy-icon-box">
+                        <div class="is-icon-reveal">
+                            <i class="im im-icon-File-Chart"></i>
+                        </div>
+                        <div class="box-title">elatform for Tomorrow</div>
+                        <p class="box-content is-tablet-padded">Imaging a learning environment under MAKE IN INDIA that hones individuals skillset by mapping.</p>
+                        <a class="button button-cta secondary-btn g-item margin-10">Unconditional Teaching Method</a>
+                        <a class="button button-cta secondary-btn g-item margin-10">Combined Current Industry Trend</a><br>
+                        <a class="button button-cta secondary-btn g-item margin-10">Hands on Sessions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Services section -->
+
+
+<!-- Blockquote -->
+<section id="goal" class="section is-medium section-feature-grey">
+    <div class="container">
+        <!-- Title -->
+        <div class="section-title-wrapper">
+            <div class="bg-number">2</div>
+            <h2 class="title dark-text text-bold main-title is-2 has-text-centered">
+                What We Offer?
+            </h2>
+          <!--  <h3 class="subtitle has-text-centered is-4">
+                Who are in extremely love with eco friendly system.
+            </h3>-->
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>To provide quality education to Engineering students through a common  platform.</blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>To provide assistance to college and it's students through a common platform for  knowledge transfer to students.</blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>To decrease the unemployment rate among qualified engineering graduate.</blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>To maintain a healthy environment between teachers and students by providing them what's needed and all that is essential for their growth in industry.</blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>To follow the mission of MAKE IN INDIA by providing students the required skillset through a proper and efficient  channel.</blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>To form a network of highly intellectual team by hiring freelancers as well as full time employees thus growing the company, eventually leading into benifits to students as well as employment to others.</blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- /Title -->
+        <!--<div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <blockquote>Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut blandit est tellus sit amet turpis.</blockquote>
+                </div>
+            </div>
+        </div>-->
+    </div>
+</section>
+<!-- Blockquote -->
+
+
+<!-- Team V6 -->
+<section id="team" class="section is-medium">
+    <div class="container">
+        <div class="section-title-wrapper">
+            <div class="bg-number">3</div>
+            <h2 class="title section-title has-text-centered dark-text text-bold">
+                Meet Our Expert Members
+            </h2>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="card-team">
+                <div class="columns is-gapless is-vcentered is-multiline">
+                    <!-- Team member -->
+                    <div class="column is-3">
+                        <div class="card-team-item">
+                            <div class="flex-card light-bordered hover-raised">
+                                <div class="card-body">
+                                    <div class="team-avatar">
+                                        <img src="./assets/images/team/Amit.jpg" alt="">
+                                    </div>
+                                    <div class="member-id">
+                                        <div class="name">
+                                            Amit Kumar
+                                        </div>
+                                        <div class="position">
+                                            Managing Director
+                                        </div>
+                                    </div>
+                                    <div class="card-social-links">
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Team member -->
+                    <!-- Team member -->
+                    <div class="column is-3">
+                        <div class="card-team-item">
+                            <div class="flex-card light-bordered hover-raised">
+                                <div class="card-body">
+                                    <div class="team-avatar">
+                                        <img src="./assets/images/team/ketan.jpg" alt="">
+                                    </div>
+                                    <div class="member-id">
+                                        <div class="name">
+                                            Ketan Singh
+                                        </div>
+                                        <div class="position">
+                                            Director ElatForm
+                                        </div>
+                                    </div>
+                                    <div class="card-social-links">
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Team member -->
+                    <!-- Team member -->
+                    <div class="column is-3">
+                        <div class="card-team-item">
+                            <div class="flex-card light-bordered hover-raised">
+                                <div class="card-body">
+                                    <div class="team-avatar">
+                                        <img src="./assets/images/team/Ajay.jpg" alt="">
+                                    </div>
+                                    <div class="member-id">
+                                        <div class="name">
+                                            Ajay Kumar
+                                        </div>
+                                        <div class="position">
+                                            Director ElatForm
+                                        </div>
+                                    </div>
+                                    <div class="card-social-links">
+                                        <a href="https://twitter.com/krp_ajay"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/in/krpajay/"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://www.instagram.com/krp.ajay/"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Team member -->
+                    <!-- Team member -->
+                    <div class="column is-3">
+                        <div class="card-team-item">
+                            <div class="flex-card light-bordered hover-raised">
+                                <div class="card-body">
+                                    <div class="team-avatar">
+                                        <img src="./assets/images/team/indra.jpg" alt="">
+                                    </div>
+                                    <div class="member-id">
+                                        <div class="name">
+                                            Indraneel D.
+                                        </div>
+                                        <div class="position">
+                                            Director ElatForm
+                                        </div>
+                                    </div>
+                                    <div class="card-social-links">
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Team member -->
+                    <!-- Team member -->
+                    <div class="column is-3">
+                        <div class="card-team-item">
+                            <div class="flex-card light-bordered hover-raised">
+                                <div class="card-body">
+                                    <div class="team-avatar">
+                                        <img src="./assets/images/team/rajat.jpg" alt="">
+                                    </div>
+                                    <div class="member-id">
+                                        <div class="name">
+                                            Rajat Yadav
+                                        </div>
+                                        <div class="position">
+                                            Director ElatForm
+                                        </div>
+                                    </div>
+                                    <div class="card-social-links">
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Team member -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team v6 -->
+
+
+
+<!-- Blockquote -->
+<section id="about" class="section is-medium section-feature-grey">
+    <div class="container">
+        <!-- Title -->
+        <div class="section-title-wrapper">
+            <div class="bg-number">4</div>
+            <h2 class="title dark-text text-bold main-title is-2 has-text-centered">
+                About Us
+            </h2>
+            <!--<h3 class="subtitle has-text-centered is-4">
+                Blockquote default style
+            </h3>-->
+        </div>
+        <!-- /Title -->
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="content">
+                    <p>We are India's first startup company who provides one stop portal delivering academic solutions for school, students and governments.We highly focus on improving education quality and make prepare students on industrial level.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blockquote -->
+
+
+<!-- Footer -->
+<footer id="footer" class="footer footer-dark">
+    <div class="container">
+        <div class="columns footer-columns is-flex-mobile">
+ <!--            Column
+            <div class="column is-half-mobile">
+                <div class="footer-column">
+                    <div class="footer-header">
+                        <h3>Product</h3>
+                    </div>
+                    <ul class="link-list">
+                        <li><a href="features.html">Discover features</a></li>
+                        <li><a href="features.html">CMS integration</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Weekly sessions</a></li>
+                        <li><a href="#">Free trials and demo</a></li>
+                        <li><a href="#">What's next ?</a></li>
+                    </ul>
+                </div>
+            </div>
+             Column
+            <div class="column is-half-mobile">
+                <div class="footer-column">
+                    <div class="footer-header">
+                        <h3>Company</h3>
+                    </div>
+                    <ul class="link-list">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About security</a></li>
+                        <li><a href="#">User guide</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Terms of website use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+             Column -->
+            <div id="contact" class="column is-half-mobile">
+                <div class="footer-column">
+                    <div class="footer-header">
+                        <h3>Contact </h3>
+                    </div>
+                    <div class="footer-light-left">
+                        <p>P- 14 , Rajiv Gandhi Infotech Park, MIDC – Phase I, Hinjawadi, Pune, Maharashtra 411057</p>
+                        <p>Email: elatform@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="column is-offset-2 is-half-mobile right">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="./assets/images/logos/buldash.png" alt="">
+                    </div>
+                    <div class="footer-header">
+                        <nav class="level is-mobile">
+                            <div class="level-left level-social">
+                                <a class="level-item">
+                                    <span class="icon"><i class="fa fa-facebook"></i></span>
+                                </a>
+                                <a class="level-item">
+                                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                                </a>
+                                <a class="level-item">
+                                    <span class="icon"><i class="fa fa-linkedin"></i></span>
+                                </a>
+                                <a href="https://www.instagram.com/elatform.pvt.ltd/" class="level-item">
+                                    <span class="icon"><i class="fa fa-instagram"></i></span>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="copyright">
+                        <span class="moto light-text">Copyright @elatform <script>document.write(new Date().getFullYear())</script>. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /Footer -->
+
+
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+
+<!-- Core js -->
+<script src="assets/js/core/jquery.min.js"></script>
+<script src="assets/js/core/modernizr.min.js"></script>
+<!-- Plugins js -->
+<script src="assets/js/slick-carousel/slick.min.js"></script>
+<script src="assets/js/ggpopover/ggtooltip.js"></script>
+<script src="assets/js/scrollreveal/scrollreveal.min.js"></script>
+<!-- Bulkit js -->
+<script src="assets/js/main.js"></script>
+<!-- Page specific js -->
+<script src="assets/js/pages/landing.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.nav-inner').on('click' , function () {
+            setTimeout(function(){
+                $(".nav-toggle").click();
+            },1);
+        })
+    })
+</script>
+
+</body>
+</html>
