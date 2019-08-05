@@ -517,8 +517,6 @@
 <!-- /Footer -->
 
 
-<script>window.stop()</script>
-
 <!-- Back To Top Button -->
 <div id="backtotop"><a href="#"></a></div>
 
@@ -537,6 +535,7 @@
 
 <script>
     $(document).ready(function () {
+        window.stop();
         $('.nav-inner').on('click' , function () {
             setTimeout(function(){
                 $(".nav-toggle").click();
